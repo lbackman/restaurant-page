@@ -1,1 +1,3 @@
-console.log('Is it working yet?')
+import './style.css';
+
+console.log('Is it working yet?');
