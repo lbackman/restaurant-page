@@ -57,6 +57,7 @@ button.about {
   border-radius: 12px;
 }
 
+
 nav, #content {
   width: min(700px, 80%);
 }

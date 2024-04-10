@@ -1,5 +1,5 @@
-import './style.css';
-import {homeContent} from './home.js';
+import './style/style.css';
+import {homeContent} from './javascript/home.js';
 
 function removeAllChildNodes(parent) {
   while (parent.firstChild) {
