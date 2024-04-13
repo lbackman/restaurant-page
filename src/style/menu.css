@@ -1,0 +1,28 @@
+.menu-content,
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-content {
+  width: clamp(250px, 100%, 400px);
+}
+
+.menu-section {
+  width: 100%;
+}
+
+.menu-content p {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.menu-content p div {
+  flex: 1;
+  border-bottom: 1px dotted black;
+  /* margin-bottom: 5px; */
+  margin: 0 5px 5px 5px;
+}
