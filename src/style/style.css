@@ -19,8 +19,11 @@ body {
 
 header {
   width: 100%;
+  height: 36px;
   justify-content: center;
   margin-bottom: 1rem;
+  position: fixed;
+  top: 0;
 }
 
 nav { border-radius: 2px; }
@@ -38,7 +41,7 @@ button.tab:hover {
 }
 
 button.home {
-  border-radius: 5px 0 0 5px;
+  border-radius: 0 0 0 6px;
 }
 
 button.menu {
@@ -47,7 +50,7 @@ button.menu {
 }
 
 button.about {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 0 6px 0;
 }
 
 #content {
@@ -55,6 +58,7 @@ button.about {
   flex-direction: column;
   background-color: rgba(195, 211, 225, 0.9);
   border-radius: 12px;
+  margin-top: 36px;
 }
 
 
