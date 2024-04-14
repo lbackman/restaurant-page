@@ -1,0 +1,25 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.contact-person-section {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  width: max(240px, 50%);
+  margin-bottom: 12px;
+}
+
+.contact-person-section img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.contact-person-section h2 {
+  font-size: medium;
+  margin: 0;
+}
