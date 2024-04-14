@@ -3,6 +3,9 @@ import Arms from '../img/normandie.svg';
 
 const homeContent = function () {
   const homeDiv = document.createElement('div');
+  const header = document.createElement('h1');
+  header.textContent = 'Chez Odin';
+  homeDiv.appendChild(header);
   const paragraphs = [
     'Welcome to Chez Odin, the restaurant with a Norman flair',
     'Where French meets Scandinavian!'
