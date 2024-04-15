@@ -9,13 +9,24 @@ function removeAllChildNodes(parent) {
   }
 }
 
+const tabSwitch = {
+  'home': homeContent(),
+  'menu': menuContent(),
+  'contact': contactContent()
+};
+
 const content = document.getElementById('content');
+const navbar = document.querySelector('.navbar');
 
-removeAllChildNodes(content);
+content.appendChild(homeContent());
 
-const home = homeContent();
-const menu = menuContent();
-const contact = contactContent();
-content.appendChild(home);
-content.appendChild(menu);
-content.appendChild(contact);
+navbar.addEventListener('click', e => {
+  const button = e.target;
+  if (!button.classList.contains('selected')) {
+    const oldSection = document.querySelector('.selected');
+    oldSection.classList.remove('selected');
+    button.classList.add('selected');
+    removeAllChildNodes(content);
+    content.appendChild(tabSwitch[button.id]);
+  }
+});

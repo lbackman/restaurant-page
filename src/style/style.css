@@ -2,6 +2,11 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
 body,
 header,
 nav,
@@ -36,7 +41,8 @@ button.tab {
   font-weight: 600;
 }
 
-button.tab:hover {
+button.tab:hover,
+button.selected {
   background-color: #128d5c;
 }
 
