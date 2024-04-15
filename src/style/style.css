@@ -20,6 +20,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 header {
@@ -63,12 +65,14 @@ button.contact {
   align-items: center;
   flex-direction: column;
   background-color: rgba(195, 211, 225, 0.9);
-  border-radius: 12px;
-  margin-top: 36px;
+  /* border-radius: 12px; */
+  padding-top: 36px;
+  flex: 1;
 }
 
 
-nav, #content {
+nav,
+#content {
   width: min(700px, 80%);
 }
 
