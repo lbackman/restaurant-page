@@ -30,7 +30,7 @@ nav { border-radius: 2px; }
 
 button.tab {
   background-color: #3bbe89;
-  flex-grow: 1;
+  flex: 1;
   border-style: none;
   font-size: large;
   font-weight: 600;
